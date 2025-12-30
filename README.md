@@ -652,16 +652,14 @@ NODE_ENV=production
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@eshfaq-ux](https://github.com/eshfaq-ux)
+- LinkedIn: [Ashfaq Nabi](https://www.linkedin.com/in/ashfaq-nabi-6882401b7/)
+- Email: eshfaqnabi11@gmail.com
 
 ---
 
