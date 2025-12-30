@@ -1,3 +1,10 @@
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-green?logo=mongodb)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
+![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # Primetrade Task Manager - Full Stack Application
 
 A complete full-stack task management application built for the Primetrade.ai Frontend Developer Intern assignment, demonstrating modern web development practices with React.js frontend and Node.js backend.
