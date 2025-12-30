@@ -1,8 +1,19 @@
+/**
+ * Task Form Component
+ * Handles task creation and editing with validation
+ */
 import React, { useState } from 'react';
 import { validateTaskForm } from '../utils/validation';
 import { logger } from '../utils/logger';
 
+/**
+ * TaskForm component for creating and editing tasks
+ * @param {Function} onSubmit - Callback function when form is submitted
+ * @param {Object} initialData - Initial form data for editing
+ * @param {boolean} loading - Loading state indicator
+ */
 const TaskForm = ({ onSubmit, initialData = null, loading = false }) => {
+  // Form state management
   const [formData, setFormData] = useState({
     title: initialData?.title || '',
     description: initialData?.description || '',
@@ -10,6 +21,9 @@ const TaskForm = ({ onSubmit, initialData = null, loading = false }) => {
   });
   const [errors, setErrors] = useState({});
 
+  /**
+   * Handle form input changes and clear validation errors
+   */
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({

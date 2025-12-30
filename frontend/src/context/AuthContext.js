@@ -1,7 +1,16 @@
+/**
+ * Authentication Context Provider
+ * Manages global authentication state and user session
+ */
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
+// Create authentication context
 const AuthContext = createContext();
 
+/**
+ * Custom hook to access authentication context
+ * @returns {Object} Authentication context value
+ */
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {
@@ -10,11 +19,16 @@ export const useAuth = () => {
   return context;
 };
 
+/**
+ * Authentication Provider Component
+ * Provides authentication state and methods to child components
+ */
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [token, setToken] = useState(localStorage.getItem('token'));
   const [loading, setLoading] = useState(false);
 
+  // Sync token with localStorage
   useEffect(() => {
     if (token) {
       localStorage.setItem('token', token);
