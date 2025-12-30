@@ -1,3 +1,10 @@
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-green?logo=mongodb)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?logo=bootstrap)
+![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # Primetrade Task Manager - Full Stack Application
 
 A complete full-stack task management application built for the Primetrade.ai Frontend Developer Intern assignment, demonstrating modern web development practices with React.js frontend and Node.js backend.
@@ -652,16 +659,14 @@ NODE_ENV=production
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@eshfaq-ux](https://github.com/eshfaq-ux)
+- LinkedIn: [Ashfaq Nabi](https://www.linkedin.com/in/ashfaq-nabi-6882401b7/)
+- Email: eshfaqnabi11@gmail.com
 
 ---
 
